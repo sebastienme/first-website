@@ -1,0 +1,175 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.img-logo, .icon {
+    width: 75px;
+    height: auto;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 4px;
+    border-style: hidden;
+    font-weight: bold;
+    padding: 5px 20px 5px 20px;
+
+}
+
+.btn-top {
+    margin-top: 10px;
+}
+
+.btn-bottom {
+    border-style: groove;
+    border-color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+.header {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 12px;
+    padding-bottom: 24px;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.header-content-left {
+    width: 400px;
+}
+
+.first-image {
+    width: 400px;
+    height: auto;
+    
+}
+
+.content-middle, .content-top {
+    color: #1F2937;
+}
+
+.slogan {
+    font-weight: 900;
+    font-size: 48px;
+
+}
+
+.title {
+    font-weight: 900;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.content-top {
+    padding-bottom: 150px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card-section {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+.card-text {
+    width: 150px;
+    text-align: center;
+}
+
+.icon {
+    align-self: center;
+}
+
+.content-middle {
+    background-color: #e5e7eb;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 4px;
+    display: flex;
+    padding: 50px;
+    gap: 52px;
+}
+
+.testimonial {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    width: 800px;
+}
+
+.signature {
+    font-weight: bold;
+    width: 800px;
+    text-align: end;
+    
+}
+
+.content-bottom {
+    background-color: white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text {
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    padding: 25px;
+}
