@@ -8,17 +8,47 @@ body {
 }
 
 button {
-    background-color: #3882F6;
-    color: white;
-    border-radius: 4px;
+    background-color: #d5fe34;
+    color: #1F2937;
     border-style: hidden;
     font-weight: bold;
     padding: 5px 20px 5px 20px;
+    cursor: pointer;
 
 }
 
+.btn-menu {
+    font-size: larger;
+    padding: 10px 40px 10px 40px;
+}
+
+.btn-menu.cool {
+    box-shadow: 0 0 20px #d5fe34;
+    
+}
+
+.btn-menu.cool:hover {
+    box-shadow: inset 400px 0 0 0 #000000;
+    color: #d5fe34;
+    transition: ease-out 1s;
+    -webkit-transition: ease-out 1s;
+    -moz-transition: ease-out 1s;
+  }
+
+.btn-menu.cool span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
 .btn-top {
     margin-top: 10px;
+    font-size: larger;
+    padding: 10px 40px 10px 40px;
+    
 }
 
 .btn-bottom {
@@ -40,7 +70,7 @@ a {
 }
 
 .header, .footer {
-    background-color: #1F2937;
+    background-color: #c4c4c4;;
     color: white;
 }
 
@@ -49,6 +79,7 @@ a {
     padding-right: 200px;
     padding-top: 12px;
     padding-bottom: 24px;
+    height: 1000px;
 }
 
 .header-menu {
@@ -60,7 +91,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 18px;
+    gap: 24px;
 }
 
 .header-content {
@@ -70,12 +101,26 @@ a {
     padding-bottom: 100px;
 }
 
-.header-content-left {
-    width: 400px;
+.mini-slogan {
+    font-size: 26px;
+    margin-top: 50px;
 }
 
+.header-content-left {
+    width: 600px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.btn-top-div {
+    margin-top: auto;
+}
+
+
 .first-image {
-    width: 400px;
+    min-width: 300px;
     height: auto;
     
 }
@@ -86,7 +131,7 @@ a {
 
 .slogan {
     font-weight: 900;
-    font-size: 48px;
+    font-size: 96px;
 
 }
 
@@ -135,9 +180,8 @@ a {
 }
 
 .container {
-    background-color: #3882F6;
+    background-color: #414141;
     color: white;
-    border-radius: 4px;
     display: flex;
     padding: 50px;
     gap: 52px;
@@ -158,7 +202,7 @@ a {
 }
 
 .content-bottom {
-    background-color: white;
+    background-color: #d5fe34;
     height: 300px;
     display: flex;
     justify-content: center;
